@@ -19,7 +19,7 @@ jobs:
     steps:
       - run: echo "Well done sakshi practical is completed"
 
-workflow:
+workflows:
   build_and_test_deploy:
   jobs:
     - build
